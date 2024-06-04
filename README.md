@@ -1,4 +1,5 @@
 
+
 # Iris Species Classification
 
 ## Project Overview
@@ -30,10 +31,14 @@ The project is organized as follows:
    - Training various machine learning models.
    - Evaluating model performance using metrics such as accuracy and confusion matrix.
 
-4. **Prediction:**
+4. **Hyperparameter Tuning:**
+   - Using Grid Search for hyperparameter tuning of the SVM model.
+   - Finding the best hyperparameters to improve model performance.
+
+5. **Prediction:**
    - Using the trained model to predict the species of new iris samples.
 
-5. **Visualization:**
+6. **Visualization:**
    - Presenting the results through graphs and charts for better understanding and interpretation.
 
 ## Libraries Used
@@ -48,10 +53,11 @@ The project is organized as follows:
 
 - The final model's performance is summarized in terms of accuracy, precision, recall, and F1 score.
 - Confusion matrix visualizations provide insights into the classification results.
+- The use of Grid Search helps in identifying the optimal hyperparameters, leading to improved model performance.
 
 ## Conclusion
 
-This project demonstrates the process of building a machine learning model to classify iris species. It covers data loading, preprocessing, exploratory data analysis, model training, evaluation, and prediction.
+This project demonstrates the process of building a machine learning model to classify iris species. It covers data loading, preprocessing, exploratory data analysis, model training, evaluation, hyperparameter tuning, and prediction.
 
 ## Usage
 
